@@ -1,0 +1,463 @@
+body {
+    background-size: cover;
+}
+
+div {
+    color: azure;
+}
+
+p {
+    font-size: 20px;
+    color: tomato;
+}
+
+.slider {
+    width: auto;
+    height: auto;
+    margin-left: center;
+}
+
+#sheet {
+    width: auto;
+    height: auto;
+}
+
+.copyright {
+    list-style-type: none;
+    text-shadow: 0 1px;
+}
+
+.aw-slider {
+    width: 800px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.resim1,
+.resim2,
+.resim3,
+.resim4,
+.resim5 {
+    position: absolute;
+    width: 800px;
+    height: 330px;
+}
+
+
+.resim1 {
+    left: 0;
+}
+
+.resim2 {
+    left: 800px;
+}
+
+.resim3 {
+    left: 1600px;
+}
+
+.resim4 {
+    left: 2400px;
+}
+
+.resim5 {
+    left: 3200px;
+}
+
+
+.aw-slider > div {
+    width: 3200px;
+    height: 330px;
+    left: 0px;
+    position: absolute;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: gecisler;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: gecisler;
+    -ms-animation-duration: 20s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-name: gecisler;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: gecisler;
+}
+
+.aw-slider > div img {
+    opacity: 0.9;
+    filter: alpha(opacity=95);
+}
+
+.aw-slider > div img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.aw-slider > div:hover {
+    -webkit-animation-play-state: paused;
+    /* Bu CSS tanımı Chrome 4.0, IE10, Firefox 16, Safari 4, Opera 15 ve üstü versiyonlarda çalışmaktadır*/
+}
+
+
+
+
+@-webkit-keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+@-moz-keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+@-ms-keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+@keyframes gecisler {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    30% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    50% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    70% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    90% {
+        left: -3200px;
+    }
+}
+
+div.bottom {
+    float: left;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+div.nav-bottom {
+    margin: 20px 0 20px 0;
+}
+
+.nav-bottom a {
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 0 5px 0 2px;
+}
+
+.nav-bottom a:last-of-type {
+    border-right: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: open sans, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.Menü {
+    background-color: darkslategray;
+    height: 50px;
+    margin: 100px 510px;
+    width: max-content;
+}
+
+ul.Menü > li {
+    float: left;
+    position: relative;
+}
+
+ul.Menü > li > a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 50px;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+ul.Menü ul {
+    background: darkslategray;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    opacity: 0;
+    ;
+    transition: 250ms all;
+    visibility: hidden;
+}
+
+ul.Menü ul li a {
+    display: block;
+    padding: 7px 12px;
+    color: #fff;
+    font-size: 20px;
+}
+
+ul.Menü > li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+
+.Menü ul li:hover {
+    background-color: burlywood;
+}
+
+.Menü li:hover {
+    background-color: burlywood;
+}
+
+.about {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.about h1 {
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.about h2 {
+    float: right 100px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: 'scaryfont';
+    font-weight: normal;
+    font-style: normal;
+    src: local('☺'),
+        url('../fonts/csnpwdt.eot?') format('eot'),
+        url('../fonts/CSNPWDTNFI.svg#CSNPWDTNFI') format('svg'),
+        url('../fonts/CSNPWDTNFI.ttf') format('truetype'),
+        url('../fonts/CSNPWDTNFI.woff') format('woff');
+}
+
+.button {
+    font-size: 20px;
+    background-color: #997f51;
+    border: #997f51 solid 3px;
+    border-radius: 3px;
+}
+
+.character_image {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.character_image:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+table {
+    border-spacing: 8px;
+}
+
+.back {
+    margin-left: 200px;
+    border: #665029 solid 4px;
+    background-color: #997f51;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.back:hover {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+}
+
+.character_name {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    color: thistle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.character_name:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #997f51;
+}

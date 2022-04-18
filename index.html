@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlast 2</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+
+<body background="/img/BG Main Page.jpg">
+
+    <div>
+        <ul class="Menü">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./about.html">About Outlast 2</a>
+
+            </li>
+            <li>
+                <a href="./characters.html">Characters</a>
+                <ul>
+                    <li><a href="https://outlast.fandom.com/wiki/Blake_Langermann" target="_blank">Blake Langermann</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Lynn_Langermann" target="_blank">Lynn Langermann</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Jessica_Gray" target="_blank">Jessica Gray</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Sullivan_Knoth" target="_blank">Sullivan Knoth</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Marta" target="_blank">Marta</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Val" target="_blank">Val</a></li>
+                    <li><a href="https://outlast.fandom.com/wiki/Loutermilch" target="_blank">Loutermilch</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </div>
+    <div style=" text-align: justify; margin: auto; max-width: 40%; font-size: large;">
+        You are <u><a href="https://outlast.fandom.com/wiki/Blake_Langermann" style="color: cadetblue;" target="blank">Blake Langermann</a></u>, a cameraman working with your wife, Lynn. The two of you are investigative journalists willing to take risks and dig deep to uncover the stories no one else will dare touch. You’re following a trail of clues that started with the seemingly impossible murder of a pregnant woman known only as Jane Doe. The investigation has lead you miles into the Arizona desert, to a darkness so deep that no one could shed light upon it, and a corruption so profound that going mad may be the only sane thing to do.
+    </div>
+    <br>
+    <br>
+    <div style="text-align:center">
+        <button onclick="makeSmall()" class="button">Small</button>
+        <button onclick="makeNormal()" class="button">Normal</button>
+        <button onclick="makeBig()" class="button">Big</button>
+        <br><br>
+        <video id="video1" width="420" controls>
+            <source src="/vids/OUTLAST 2 Official Trailer (Horror - 2016)_Trim.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+
+    <script>
+        var myVideo = document.getElementById("video1");
+
+        function makeBig() {
+            myVideo.width = 900;
+        }
+
+        function makeSmall() {
+            myVideo.width = 500;
+        }
+
+        function makeNormal() {
+            myVideo.width = 750;
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <div class="aw-slider">
+
+        <div>
+            <a class="resim1"><img src="img/1.jpg"></a>
+            <a class="resim2"><img src="img/2.jpg"></a>
+            <a class="resim3"><img src="img/3.jpg"></a>
+            <a class="resim4"><img src="img/4.JPG"></a>
+            <a class="resim5"><img src="img/5.JPG"></a>
+        </div>
+
+    </div>
+    <div id="bottom" class="bottom">
+        <div class="nav-bottom">
+            <a href="./index.html" style="color: red;">Home</a>
+            <a href="./about.html" style="color: red;">About Outlast 2</a>
+            <a href="./characters.html" style="color: red;">Characters</a>
+            <a href="./contact.html" style="color: red;">Contact</a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright by <a href="mailto:outlast2.officialsite@gmail.com" style="color: white;">Outlast 2</a>
+            <br>
+            <img src="img/Copyright.jpg" alt="Copyright">
+        </div>
+    </div>
+</body>
+
+</html>
